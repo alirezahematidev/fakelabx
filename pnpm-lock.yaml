@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@fakelabx/react': workspace:*
+
 importers:
 
   .:
@@ -14,6 +17,8 @@ importers:
       vite:
         specifier: ^7.2.4
         version: 7.3.1
+
+  packages/react: {}
 
 packages:
 
